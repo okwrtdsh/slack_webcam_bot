@@ -1,0 +1,16 @@
+version: '3'
+services:
+  slack_webcam_bot:
+    image: okwrtdsh/slack_webcam_bot:latest
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ./example/requirements.txt:/requirements.txt
+      - ./example/main.sh:/main.sh
+      - ./example/main.py:/main.py
+      - ./example/main_cron:/etc/cron.d/main_cron
+      - ./img/:/img/
+    devices:
+      - /dev/video0:/dev/video0
+    environment:
+      - TOKEN=YourToken
+      - CHANNEL=YourChannelId
