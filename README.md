@@ -1,4 +1,4 @@
-# slack_webcam_bot [![](https://img.shields.io/docker/stars/okwrtdsh/slack_webcam_bot.svg)![](https://img.shields.io/docker/pulls/okwrtdsh/slack_webcam_bot.svg)![](https://img.shields.io/docker/automated/okwrtdsh/slack_webcam_bot.svg)![](https://img.shields.io/docker/build/okwrtdsh/slack_webcam_bot.svg)](https://hub.docker.com/r/okwrtdsh/slack_webcam_bot/)
+# slack_webcam_bot [![](https://img.shields.io/docker/stars/okwrtdsh/slack_webcam_bot.svg)![](https://img.shields.io/docker/pulls/okwrtdsh/slack_webcam_bot.svg)![](https://img.shields.io/docker/cloud/automated/okwrtdsh/slack_webcam_bot.svg)![](https://img.shields.io/docker/cloud/build/okwrtdsh/slack_webcam_bot.svg)](https://hub.docker.com/r/okwrtdsh/slack_webcam_bot/)
 
 ![](./img/image.png)
 
